@@ -148,6 +148,7 @@ char convert4binaryToHexa(string binary)
         return 'E';
     if (binary == "1111")
         return 'F';
+    return '0';
 }
 string convertToHexaForm(int X)
 {
